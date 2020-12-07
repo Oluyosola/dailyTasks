@@ -13,11 +13,12 @@ $nthSeries = (1/($a+(($n-1)*$d)));
 // 
 return strval(number_format((float)$nthSeries, 2));
 
-// }
+// return array_sum(range(1, $nthSeries));
+// return arary_sum (range(1, $nthSeries));
 
 }
 
-echo series(4);
+echo series(5);
 
 
 ?>
